@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+     <LinearLayout
+          android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+          >
+
+          <TextView
+       android:text="Titolo"
+        android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+        android:textSize="28dp"
+            />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+          <TextView
+         android:text="SottoTitolo"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textSize="20dp"
+
+          />
+          <TextView
+
+              android:text="08/02/2017"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="end"
+
+              android:textSize="20dp"
+
+          />  </LinearLayout>
+          <TextView
+
+              android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nulla commodo, iaculis ipsum et, malesuada tortor. Suspendisse a augue ex. Pellentesque rhoncus urna sapien."
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="start"
+              android:textSize="20dp"
+
+              />
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="end">
+
+                    <Button
+              android:gravity="end"
+              android:background="@color/colorButton"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/btn1"
+              />
+               </LinearLayout>
+
+     </LinearLayout>
+
+
+     <LinearLayout
+         android:orientation="vertical"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+
+         >
+
+          <TextView
+              android:text="Titolo"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:textSize="28dp"
+              />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+               <TextView
+                   android:text="SottoTitolo"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textSize="20dp"
+
+                   />
+               <TextView
+
+                   android:text="08/02/2017"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:gravity="end"
+
+                   android:textSize="20dp"
+
+                   />  </LinearLayout>
+          <TextView
+
+              android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non nulla commodo, iaculis ipsum et, malesuada tortor. Suspendisse a augue ex. Pellentesque rhoncus urna sapien."
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_gravity="start"
+              android:textSize="20dp"
+
+              />
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="end">
+
+               <Button
+                   android:gravity="end"
+                   android:background="@color/colorButton"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="@string/btn1"
+                   android:id="@+id/button2" />
+
+
+     </LinearLayout>
+
+
+
+
+</LinearLayout>
+</LinearLayout>
